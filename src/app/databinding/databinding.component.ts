@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
   //directives:[PropertyBindingComponent]
 })
 export class DatabindingComponent{
-	stringInterpolation = 'String Inter';
+	stringInterpolation = 'String Interpolation';
 	numberInterpolation = 2;
 	
 	onTest()
