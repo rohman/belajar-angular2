@@ -5,7 +5,8 @@ import { Component, OnInit, OnChanges, DoCheck, AfterContentInit, AfterContentCh
   template: `
    <ng-content></ng-content>
    <hr>
-   <p>{{bindable}}</p>
+   <p #boundP>{{bindable}}</p>
+   <p>{{boundP.textContent}}</p>
   `,
   styles: []
 })
